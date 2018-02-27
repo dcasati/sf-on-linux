@@ -91,7 +91,7 @@ These examples were tested on a MacOS (High Sierra) and on Linux (Ubuntu 16.04).
 
     > NOTE: These steps are based on this [instructions](https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/).
 
-    ```docker
+    ```dockerfile
     FROM debian:stretch-slim
 
     LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
