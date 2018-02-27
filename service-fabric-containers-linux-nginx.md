@@ -316,6 +316,8 @@ Container repository password:
 ```
 > NOTE: Because we are using a private registry, you will need to provide `sfctl` with the username and password for your registry (`--user` and `--has-pass` flags). 
 
+![Service Fabric on Linux](images/sflinux.png)
+
 ## Using node placement and constrains
 
 We can restrict NGINX to run on the `blue` nodes or on the `red` nodes. To achieve that, you can execute the following command:
