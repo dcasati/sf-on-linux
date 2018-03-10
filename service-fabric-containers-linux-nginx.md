@@ -143,17 +143,17 @@ These examples were tested on a MacOS (High Sierra) and on Linux (Ubuntu 16.04).
     ```bash
     version: '3'
     services:
-    nginx:
+      nginx:
         ports:
-        - 80:80
+          - 80:80
         image: casatix.azurecr.io/samples/nginx:v1.0
         build:
-        context: .
-        dockerfile: nginx/Dockerfile
+          context: .
+          dockerfile: nginx/Dockerfile
         deploy:
-        placement:
+          placement:
             constraints:
-            - NodeType==blue
+              - NodeType==blue
     ```
 With all of this configuration in place, your final directory should resemble this structure:
 
